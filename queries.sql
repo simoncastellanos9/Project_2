@@ -1,17 +1,23 @@
+-- drop table weather;
 -- Create tables for raw data to be loaded into
 CREATE TABLE weather (
-	DATE DATE PRIMARY KEY,
-	STATION VARCHAR(30),
-	NAME VARCHAR(75),
-	TMAX FLOAT,
-	TMIN FLOAT,
-	TOBS FLOAT
+	id serial PRIMARY KEY,
+	"DATE" DATE,
+	"STATION" VARCHAR(30),
+	"NAME" VARCHAR(75),
+	"TMAX" FLOAT,
+	"TMIN" FLOAT,
+	"TOBS" FLOAT
 );
 CREATE TABLE wti (
-	DATE DATE PRIMARY KEY,
-	"Daily Crude Oil Price" FLOAT
+	id serial PRIMARY KEY,
+	"DATE" DATE,
+	"Price" FLOAT
 );
 CREATE TABLE kwh (
-	DATE DATE PRIMARY KEY,
-	"$/KWH" FLOAT
+	id serial PRIMARY KEY,
+	"DATE" DATE,
+	"Cost_KWH" FLOAT
 );
+
+SELECT * FROM wti;
