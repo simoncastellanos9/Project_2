@@ -10,12 +10,10 @@
 </ul>
 <br>
 <h3>Topic and Rationale</h3>
-Topic:
-<ul>
-  <li></li>
-  <li></li>
-</ul>
-<br>
+<hr>
+<p align = 'center'>
+<img src = https://github.com/simoncastellanos9/Project_2/blob/main/Project%202%20Proposal%20(Group%204).png></p>
+<hr>
 <h3>Datasets</h3>
 <ul>
   <li>Houston National Weather Service Office, TX US | Source:<a href="https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00414333/detail"> National Centers for Environmental Information - National Oceanic and Atmospheric Administration((NOAA)</a>
@@ -25,7 +23,8 @@ Topic:
 </ul>
 <h3>Architecture Diagram</h3>
 <hr>
-<img src= https://github.com/simoncastellanos9/Project_2/blob/main/Resources/Schema.png>
+<p align = 'center'>
+<img src= https://github.com/simoncastellanos9/Project_2/blob/main/Resources/Schema.png></p>
 <hr>
 <h3>ETL Process</h3>
 <ul>
