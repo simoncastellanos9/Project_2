@@ -1,4 +1,3 @@
--- drop table weather;
 -- Create tables for raw data to be loaded into
 CREATE TABLE weather (
 	id serial PRIMARY KEY,
@@ -20,4 +19,11 @@ CREATE TABLE kwh (
 	"Cost_KWH" FLOAT
 );
 
-SELECT * FROM wti;
+
+--Join tables
+SELECT 
+	weather.id, weather."DATE", weather."STATION", weather."NAME", weather."TMAX", weather."TMIN",weather."TOBS",kwh."Cost_KWH",wti."Price"
+FROM weather
+INNER JOIN kwh ON weather.id = kwh.id
+INNER JOIN wti ON weather.id = wti.id
+ORDER BY weather."DATE";
