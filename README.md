@@ -5,7 +5,7 @@
   <li>Simon Castellanos</li>
   <li>Elijah Abuel</li>
   <li>Morteza Akbari</li>
-  <li>Morteza Akbari</li>
+  <li>Joseph Mills</li>
   <li>Karla Flores</li>
 </ul>
 <br>
