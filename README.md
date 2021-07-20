@@ -36,7 +36,7 @@ Topic:
 		<li>WTI(West Texas Intermediate): CSV file</li>
 		<li>Huston KWH Electricity CPI: CSV file</li>
 	</ul>
-  <li>Transform</li
+<li>Transform</li>
 	<ul>
 		<li>Pulling the CSV files from the sources, we then used pd.read_csv to pull these into readable tables.</li>
 		<li>Our main column in which we linked our datasets was using "Date" as a common denominator.</li>
