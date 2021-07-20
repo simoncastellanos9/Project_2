@@ -19,7 +19,7 @@
   <li>Houston National Weather Service Office, TX US | Source:<a href="https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00414333/detail"> National Centers for Environmental Information - National Oceanic and Atmospheric Administration((NOAA)</a>
   </li>
   <li>Electricity Per KWH in Houston | Source: <a href="https://fred.stlouisfed.org/series/APUS37B72610">Economic Research - Federal Reserve Bank of St. Louis FRED</a></li>
-  <li>Crude Oil Prices: West Texas Intermediate (WTI) | Source: <a href="https://fred.stlouisfed.org/series/DCOILWTICO"></a>Economic Research - Federal Reserve Bank of St. Louis FRED</li>
+  <li>Crude Oil Prices: West Texas Intermediate (WTI) | Source: <a href="https://fred.stlouisfed.org/series/DCOILWTICO">Economic Research - Federal Reserve Bank of St. Louis FRED</a></li>
 </ul>
 <h3>Architecture Diagram</h3>
 <hr>
